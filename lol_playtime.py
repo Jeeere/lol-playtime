@@ -10,7 +10,7 @@ def get_time_played(last_season:int=20):
     Get the total time played in League of Legends
 
     Args:
-        max_season: int, the last season to check for time played
+        last_season: int, the last season to check for time played
     Returns:
         time_played: int, total time played in seconds
         user_info: tuple, (gameName, tagLine, puuid)
